@@ -1,0 +1,12 @@
+﻿namespace Sistema_de_gestion_de_celulares_API.DTOs
+{
+    public class ProductoDto
+    {
+        public string Nombre { get; set; }
+        public string IMEI { get; set; }
+        public decimal Precio { get; set; }
+        public int stock { get; set; }
+        public int MesGarantia { get; set; }
+        public int MarcaId { get; set; }
+    }
+}
